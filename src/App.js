@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import navBar from "./components/navBar/navBar";
 
 function App() {
   return (
     <div>
-      <h1>
-        Hola
-      </h1>
+      <navBar />
     </div>
   );
 }
