@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className="container-logo">
         <img
           className="logo-navbar"
-          src="https://res.cloudinary.com/dczsskjpw/image/upload/v1669641179/kisspng-video-game-gamer-aerobolt-the-surge-5aef74e40aba85.299781691525642468044_zzp8jf.jpg"
+          src="https://res.cloudinary.com/dczsskjpw/image/upload/v1669642320/Chely-design-fluffy-name_t7txar.png"
           alt=""
         />
       </div>
