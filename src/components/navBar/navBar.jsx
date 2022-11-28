@@ -5,21 +5,21 @@ import { CartWidget } from "../cartWidget/CartWidget";
 
 const NavBar = () => {
 
-    const nombre = "Todas"
+    const nombre = "Articulos"
 
   return (
     <div className="navbar-container">
       <div className="container-logo">
         <img
           className="logo-navbar"
-          src="https://res.cloudinary.com/dnqfh2chg/image/upload/v1669326932/free-metcon-4-zapatillas-de-entrenamiento-TQMCZg_fvia3m.png"
+          src="https://res.cloudinary.com/dczsskjpw/image/upload/v1669641179/kisspng-video-game-gamer-aerobolt-the-surge-5aef74e40aba85.299781691525642468044_zzp8jf.jpg"
           alt=""
         />
       </div>
       <ul className="navbar">
         <li className="navbar-item">{nombre}</li>
-        <li className="navbar-item">Deportivas</li>
-        <li className="navbar-item">Urbanas</li>
+        <li className="navbar-item">Consolas</li>
+        <li className="navbar-item">PC Gamers</li>
       </ul>
       <CartWidget />
     </div>
