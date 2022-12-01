@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./NavBar.css";
 
 
 import { CartWidget } from "../cartWidget/CartWidget";
