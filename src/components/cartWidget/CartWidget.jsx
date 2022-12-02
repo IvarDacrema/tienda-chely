@@ -10,6 +10,7 @@ export const CartWidget = () => {
           color: "black",
         }}
       />
+      <h3>1</h3>
     </div>
   );
 };
