@@ -1,16 +1,17 @@
+import {Link} from "react-router-dom"
 import "./CartWidget.css"
-import { BsFillCartCheckFill } from "react-icons/bs";
-
+import { AiOutlineShoppingCart } from "react-icons/ai";
 export const CartWidget = () => {
-  return (
-    <div className="container-cart">
-      <BsFillCartCheckFill
-        style={{
-          fontSize: "2rem",
-          color: "black",
-        }}
-      />
-      <h3>1</h3>
-    </div>
-  );
-};
+    return (
+      <Link to="/cart">
+      <div className="container-cart">
+        <AiOutlineShoppingCart
+          style={{fontSize: "2rem"}}
+          />
+        <div className="bubble-counter">
+          <span>7</span>
+        </div>
+      </div>
+          </Link>
+    );
+  };
