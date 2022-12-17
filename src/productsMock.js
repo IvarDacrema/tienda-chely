@@ -2,28 +2,28 @@ export const products = [
 
     {
         id: 1,
-        name: "PC GAMER GM 220T I5 RTX 3060",
-        price: 20500,
-        stock: 2,
-        description: "La PC Banghó Game Master 220T, fue creada para aportar mayor velocidad en el juego y portabilidad. Equipada con Procesador Intel Core i5 de 12va generación y placa gráfica NVIDIA Geforce RTX 3060 de 12GB.",
+        name: "PC RAZER GM 220T I7 RTX 4060",
+        price: 30500,
+        stock: 12,
+        description: "La PC Razer Game Master TXT200, da la mayor velocidad en el juego y portabilidad. Equipada con Procesador Intel Core i7 de 12va generación y placa gráfica NVIDIA Geforce RTX 4060 de 8GB.",
         category: "PCs",
         img: "https://res.cloudinary.com/dfbuxinmw/image/upload/c_scale,w_400/v1670694177/161153-800-auto_lagnky.jpg"
     },
     {
         id: 2,
         name: "Monitor 22' Samsung" ,
-        price: 14500,
-        stock: 5,
-        description: "Este monitor de 22 pulgadas te va a resultar cómodo para estudiar trabajar o ver una película en tus tiempos de ocio.",
-        category: "Pantalla",
+        price: 12700,
+        stock: 20,
+        description: "Este monitor de 22 pulgadas te va a resultar cómodo para estudiar trabajar o ver una película, con su pantalla oled veras como nunca los colores super definidos.",
+        category: "Pantallas",
         img: "https://res.cloudinary.com/dfbuxinmw/image/upload/c_scale,w_400/v1670693774/00406004-177456-177456-01.png-177456-01_o7ew9c.png"
     },
     {
         id: 3,
         name: "Pantalla 140 Hz ZWBA",
-        price: 10500,
-        stock: 4,
-        description: "Pantalla de 140 Hz con resolución de 1920x1080 Ultra FHD",
+        price: 18500,
+        stock: 12,
+        description: "Pantalla de 140 Hz te dara ese toque de profesionalismo a yu competitividad",
         category: "Pantallas",
         img: "https://res.cloudinary.com/dfbuxinmw/image/upload/v1670683153/UL-Tra-FHD-1920-1080-140-Hz-LED-24-Inch-Frameless-IPS-Gaming-Monitor-Screen-144-Monitor_tffj9d.jpg"
     },
