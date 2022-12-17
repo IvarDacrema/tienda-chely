@@ -22,9 +22,9 @@ function App() {
 
         <Route path="/item/:id" element={ <ItemDetailContainer /> } />
 
-        <Route path="/cart" element={ <h3>Aca se muestra el carrito</h3> } />
+        <Route path="/cart" element={ <h3>Carrito</h3> } />
 
-        <Route path="*" element={ <h2>Lo siento esta url no existe</h2> } />
+        <Route path="*" element={ <h2>Esta URL no Existe</h2> } />
 
       </Routes>
 
